@@ -41,6 +41,7 @@ function PostPage(props) {
         })*/
         
         // react -> springboot 로 보냄 (객체를 json으로 변환해서)
+        // 비동기 -> 동기로
         axios.post("http://localhost:8080/basic/student", student)
         .then(response => {
             console.log(response.data);

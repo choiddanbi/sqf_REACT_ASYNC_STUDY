@@ -25,5 +25,17 @@ export const BASIC_MENU = [
         name: "DELETE요청",
         path: "/async/basic/delete",
         icon: <IoRemoveCircleOutline/>
+    },
+    {
+        id: 5,
+        name: "POST2요청",
+        path: "/async/basic/post2",
+        icon: <IoCreateOutline/>
+    },
+    {
+        id: 6,
+        name: "Promise학습",
+        path: "/async/basic/promise",
+        icon: <IoCreateOutline/>
     }
 ];
